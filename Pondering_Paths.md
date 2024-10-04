@@ -11,3 +11,5 @@ We learned that the challenges in pwn college are in the root directory which is
 The task given was to run the challenge program called "run" which in turn lives in  the "challenge" directory. 
 A flag indicating the successfull completion of the program will be given when the user enters "/challenge/run" in their respective GUI interface .
 
+## POSITION THY SELF
+
