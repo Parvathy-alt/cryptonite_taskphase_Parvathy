@@ -34,6 +34,27 @@ to check whether the file has been successfully deleted or not .
 
 ## HIDDEN FILES
 
+## FILESYSTEM QUEST 
+
+## MAKING DIRECTORIES 
+
+We learn about a command called "mkdir" to make directories . In this challlenge we make a directory called "/tmp/pwn" in which we make a file called "college" and later run the code "/challenge/run" to check whether the file has been created succesfully and on completion we receive a flag 
+
+## FINDING FILES
+
+To find a file in the provided system we use "find" command . On running the command , "find / -name flag" , many files appear on the 
+screen out of which we use "cat" commmand to find out which has the required flag 
+In the given case the flag was found in the "/usr/lib/python3/dist-packages/magic/flag" file 
+The flag was : pwn.college{wBFUcuFlmeYW2tQqIzDe0BJetqB.dJzM4QDLwgTN0czW}
+
+## LINKING FILES 
+
+In this challenge we are taught to link files to one another . Executing the follwing code will retrive us the flag which marks the successful completion of this challenge : 
+ln -s /flag not-the-flag
+/challenge/catflag
+
+
+
 
 
 
