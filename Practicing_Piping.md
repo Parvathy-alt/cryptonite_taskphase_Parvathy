@@ -51,6 +51,27 @@ We use the above mentioned operator along with pipe(|) operator to obtain the fl
 ## DUPLICATING PIPED DATA WITH TEE 
 
 We learn about 'tee' command in this challenge , it duplicates data flowing through your pipes to any number of files provided on the command line.
+The commands required for this challenge is as follows : 
+`/challenge/pwn | tee find | /challenge/college` where `find` is the command output 
+`cat find`  which gives us the output :
+
+`/challenge/pwn --secret [SECRET_ARG]`
+`SECRET_ARG should be "A9Pkspou"`
+
+After which : `/challenge/pwn --secret A9Pkspou | /challenge/college` and get the flag : `pwn.college{A9Pkspou7yjFMJ0hfM3dx-oB9JL.dFjM5QDLwgTN0czW}`
+
+## WRITING TO MULTIPLE PROGRAMS
+
+According to the challenge given , the output from `/challenge/hack` must be piped to the 2 commands `/challenge/planet` and `/challenge/the` where `/challenge/the` is the command output
+On running : `/challenge/hack | tee >(/challenge/the) | /challenge/planet` we get a flag which marks the successfull completion of the the challenge 
+Flag : `pwn.college{UYL1FVfq-eLlZSsauhDBi7QDt_n.dBDO0UDLwgTN0czW}`
+
+## SPLIT-PIPING STDERR  AND STDOUT
+
+Initially, I utilized `2>` combined with `>(/challenge/the`) to direct standard error to the `/challenge/the` program.Later we use pipe(|) to stdout to `/challenge/planet`
+The command is as follows : ```/challenge/hack 2> >(/challenge/the) | /challenge/planet```
+Flag : `pwn.college{UH1UBoKi0khlhTm9DhWvGVy5Bw7.dFDNwYDLwgTN0czW}`
+
  
 
 
