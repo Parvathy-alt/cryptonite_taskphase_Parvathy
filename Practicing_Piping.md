@@ -69,7 +69,9 @@ Flag : `pwn.college{UYL1FVfq-eLlZSsauhDBi7QDt_n.dBDO0UDLwgTN0czW}`
 ## SPLIT-PIPING STDERR  AND STDOUT
 
 Initially, I utilized `2>` combined with `>(/challenge/the`) to direct standard error to the `/challenge/the` program.Later we use pipe(|) to stdout to `/challenge/planet`
-The command is as follows : ``/challenge/hack 2> >(/challenge/the) | /challenge/planet``
+
+The command is as follows : ```/challenge/hack 2> >(/challenge/the) | /challenge/planet
+
 Flag : `pwn.college{UH1UBoKi0khlhTm9DhWvGVy5Bw7.dFDNwYDLwgTN0czW}`
 
  
