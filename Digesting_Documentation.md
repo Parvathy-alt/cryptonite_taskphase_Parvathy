@@ -2,24 +2,24 @@
 
 ## LEARNING FROM DOCUMENTATION 
 
-To complete the following task it is required to run the command "/challenge/challenge" alongside the command "--giveflag" to obtain the flag 
+To complete the following task it is required to run the command `/challenge/challenge` alongside the command "--giveflag" to obtain the flag 
 The flag is :
-pwn.college{Ir6ASnSgR1SDR-zBYX3S8zD6Qlr.dRjM5QDLwgTN0czW}
+`pwn.college{Ir6ASnSgR1SDR-zBYX3S8zD6Qlr.dRjM5QDLwgTN0czW}`
 
 
 ## LEARNING COMPLEX USAGE 
 
 As the name suggests we learn about more complex usages of the 
-Flag is : pwn.college{UvegGodQlRpUHe62ppgWh9H3s5u.dVjM5QDLwgTN0czW}
+Flag is : `pwn.college{UvegGodQlRpUHe62ppgWh9H3s5u.dVjM5QDLwgTN0czW}`
 
 ## READING MANUALS
 
-In this challenge we learn how to use the man command which is used to read manuals . On running "man challenge" we recieve multiple descriptions out of which the one which is required 
+In this challenge we learn how to use the man command which is used to read manuals . On running `man challenge` we recieve multiple descriptions out of which the one which is required 
 to attain the flag is 
-" --hxibcn NUM
-print the flag if NUM is 031"
+` --hxibcn NUM
+print the flag if NUM is 031`
 According the the following description we run the command "/challenge/challenge --hxibcn 031" to get the flag 
-The flag is :  pwn.college{0hxib3JcT1npV_Wwkogyawd3e8B.dRTM4QDLwgTN0czW}
+The flag is :  `pwn.college{0hxib3JcT1npV_Wwkogyawd3e8B.dRTM4QDLwgTN0czW}`
 
 ## SEARCHING MANUALS
 
@@ -32,7 +32,7 @@ Flag : ` pwn.college{U56U6Tnk7za02WSFBFJz6AFTq_X.dVTM4QDLwgTN0czW}`
 
 ## SEARCHING FOR MANUALS
 
-When  the comand "man -k flag" . The following output is obtained :
+When  the comand `man -k flag` . The following output is obtained :
 
 dpkg-buildflags (1)  - returns build flags to use during package build
 Dpkg::BuildFlags (3perl) - query build flags
@@ -54,18 +54,18 @@ setarch (8)          - change reported architecture in new program environment a
 x86_64 (8)           - change reported architecture in new program environment and/or set personality flags
 
 Out of which we can observe that "fiubkatmhe" command will obtain us the flag 
-To get the required flag : "/challenge/challenge  --fiubka 646" is printed 
-The flag is :pwn.college{MfYiubkEXO6Z4UQGVaHtm6h0eOI.dZTM4QDLwgTN0czW}
+To get the required flag : `/challenge/challenge  --fiubka 646` is printed 
+The flag is :`pwn.college{MfYiubkEXO6Z4UQGVaHtm6h0eOI.dZTM4QDLwgTN0czW}`
 
 ## HELPFUL PROGRAMS 
 
-We run the command "/challenge/challenge --help" which provides us a list of optional arguments eg : -h,--help and -p, --print-value
-After which we type the command : "/challenge/challenge -p" which  provides us with a secret value ie 278 . Once we recive that value we execute the command : "/challenge/challenge -g 278".
-Th flag is : pwn.college{EM2oLW7jmi8Q1DU0_M2nIQUacdY.ddjM4QDLwgTN0czW}
+We run the command `/challenge/challenge --help` which provides us a list of optional arguments eg : -h,--help and -p, --print-value
+After which we type the command : "/challenge/challenge -p" which  provides us with a secret value ie 278 . Once we recive that value we execute the command : `/challenge/challenge -g 278`.
+Th flag is : `pwn.college{EM2oLW7jmi8Q1DU0_M2nIQUacdY.ddjM4QDLwgTN0czW}`
 
 ## HELP FOR builtins.
 
 In this challenge we learned about builtins and where they can be used . Built-in commands are executed like regular commands, but the shell processes them internally 
 rather than starting external programs.
-We execute the command "help challenge" after which we recieve a secret command and execute it as well "challenge --secret Qt9oB8rk"
-The flag is : pwn.college{Qt9oB8rkN6NUlRbdOXNEy0htKSV.dRTM5QDLwgTN0czW}
+We execute the command `help challenge` after which we recieve a secret command and execute it as well `challenge --secret Qt9oB8rk`
+The flag is : `pwn.college{Qt9oB8rkN6NUlRbdOXNEy0htKSV.dRTM5QDLwgTN0czW}`
