@@ -3,21 +3,26 @@
 ## CAT COMMAND 
 
 We learn about a very crucial command known as "cat" , it is used to concatenate  . To obtain the flag we use the cat command to concatenate the flag file in the home directory . 
+Flag : `pwn.college{Y6pw3DtCARn5wQoanxHFMGXbkK_.dFzN1QDLwgTN0czW}`
 
 ## CATTING ABSOLUTE PATHS 
 
 We use the cat command to concatenate the flag file from its absolute path like so : cat /flag" to obtain the flag which marks the successful compeltion of the challenege 
+Flag : `pwn.college{8Bx1vgHmuBQaN6KiQdalgR6dHti.dlTM5QDLwgTN0czW}`
 
-## CATTING PRACTISE 
 
-As the question suggests we are supposed to used cat command and access the absolute path of the flag file 
-`cat /flag`
+## MORE CATTING PRACTISE 
+
+We come to know the location fo the `flag` file is : `/usr/share/dpkg/flag` , then we use the following command to retrieve the flag : 
+` cat /usr/share/dpkg/flag` 
+Flag : `pwn.college{0nj_U2So9CSVqtB6tx2jogxJ5--.dBjM5QDLwgTN0czW}`
 
 ## GREPPING 
 
 When the files we obtain out of concatenating become too complex we can use the grep command . 
 The format for the greo command is as follows : `hacker@dojo:~$ grep SEARCH_STRING /path/to/file"`
 To obtain the flag the required line of command is as follows : `grep pwn.college /challenge/data.txt"`
+Flag : `pwn.college{Y-hCItgkclHTcCsnWpoC9Axjr_c.ddTM4QDLwgTN0czW}`
 
 ## LISTING FILES 
 
