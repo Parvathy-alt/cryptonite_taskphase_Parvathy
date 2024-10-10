@@ -7,7 +7,7 @@ Flag : `pwn.college{Y6pw3DtCARn5wQoanxHFMGXbkK_.dFzN1QDLwgTN0czW}`
 
 ## CATTING ABSOLUTE PATHS 
 
-We use the cat command to concatenate the flag file from its absolute path like so : cat /flag" to obtain the flag which marks the successful compeltion of the challenege 
+We use the cat command to concatenate the flag file from its absolute path like so : c`at /flag` to obtain the flag which marks the successful compeltion of the challenege 
 Flag : `pwn.college{8Bx1vgHmuBQaN6KiQdalgR6dHti.dlTM5QDLwgTN0czW}`
 
 
