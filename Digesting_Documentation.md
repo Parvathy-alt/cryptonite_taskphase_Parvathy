@@ -23,6 +23,13 @@ The flag is :  pwn.college{0hxib3JcT1npV_Wwkogyawd3e8B.dRTM4QDLwgTN0czW}
 
 ## SEARCHING MANUALS
 
+
+We run `man challenge` to find the location of the flag amongst the manuals , specifically to filter out the flag we use `/flag` which leads us to a command `--vtds This argument will give you the flag` is found 
+After which we type the command : 
+`/challenge/challenge   --vtds` which gives us the flag , which is 
+Flag : ` pwn.college{U56U6Tnk7za02WSFBFJz6AFTq_X.dVTM4QDLwgTN0czW}`
+
+
 ## SEARCHING FOR MANUALS
 
 When  the comand "man -k flag" . The following output is obtained :
