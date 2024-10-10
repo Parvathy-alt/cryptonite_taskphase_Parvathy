@@ -2,6 +2,11 @@
 
 ## MATCHING WITH *
 
+`/challenge/run` gives the output that `This challenge resets your working directory to /home/hacker unless you change 
+directory properly...` according to which we redirect to another working directory which is `/challenge ` which is done by the line of code 
+`cd /ch*` then we run `./run` to get the flag 
+Flag : `pwn.college{UUvGx0arZ-6E4_ORv1veEKDK1V8.dFjM4QDLwgTN0czW}`
+
 ## MATCHING WITH ?
 
 When the system comes across a `?` character in any argument, the shell interprets it as a wildcard that matches exactly one character, similar to `*`, but limited to a single character.
@@ -14,6 +19,8 @@ we execute ` /challenge/run file_[absh] ` to access the file file_b, file_a, fil
 The flag obtained is : `pwn.college{0irKRbuJgGGWQXMI7XDMzk-A436.dNjM4QDLwgTN0czW}`
 
 ## MATCHING PATHS WITH []
+
+First we run the command `/challenge/files/file_[bash]` after which we run `/challenge/run /challenge/files/file_[bash]` to get thr required flag which is : `pwn.college{AkvpIa6ImW5IdjlCzr8F9gNpKSd.dRjM4QDLwgTN0czW}`
 
 ## MIXING GLOBS
 
