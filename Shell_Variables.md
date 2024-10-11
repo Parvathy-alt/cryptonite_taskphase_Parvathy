@@ -21,8 +21,8 @@ Flag:`pwn.college{Qwkm_Dyo6EgN4QXpNHISntN2Wz-.dBjN1QDLwgTN0czW}`
 
 In this challenge we are asked to export variable `PWN` to value `COLLEGE` and set `COLLEGE` to `PWN`
 The commands for the following are : 
-``` export PWN=COLLEGE```
-```COLLEGE=PWN```
+''' export PWN=COLLEGE'''
+```COLLEGE=PWN
 Flag : `pwn.college{kNzCBIT5-RUtn3Kzi-dvBabjACJ.dJjN1QDLwgTN0czW}`
 
 
