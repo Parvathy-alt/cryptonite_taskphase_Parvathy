@@ -21,9 +21,45 @@ Flag:`pwn.college{Qwkm_Dyo6EgN4QXpNHISntN2Wz-.dBjN1QDLwgTN0czW}`
 
 In this challenge we are asked to export variable `PWN` to value `COLLEGE` and set `COLLEGE` to `PWN`
 The commands for the following are : 
-''' export PWN=COLLEGE'''
-```COLLEGE=PWN
-Flag : `pwn.college{kNzCBIT5-RUtn3Kzi-dvBabjACJ.dJjN1QDLwgTN0czW}`
+` export PWN=COLLEGE`
+`COLLEGE=PWN`
+```Flag : pwn.college{kNzCBIT5-RUtn3Kzi-dvBabjACJ.dJjN1QDLwgTN0czW}```
+
+## PRINTING EXPORTED VARIABLES
+
+We learn about "env" command which helps us print out every exported variable set in your shell , amongst which we find the flag 
+Flag : `pwn.college{gtzNb2xt9rQIXCd1yCEUH-GMYSY.dhTN1QDLwgTN0czW}`
+
+## STORING COMMAND OUTPUT
+
+As the name of the challenge suggests we store the output of `/challenge/run` in `PWN` variable
+The commands go as follows : 
+` PWN=$(/challenge/run)`
+Output : ```Congratulations! You have read the flag into the PWN variable. Now print it out 
+and submit it!```
+`echo $PWN`
+Flag : `pwn.college{0E8EJ_DuLpeAHfSLp2YJZiuO0fz.dVzN0UDLwgTN0czW}`
+
+## READING INPUT 
+
+The format for reading inputs and assign it to a varibale is as follows:
+`hacker@dojo:~$ read -p "INPUT: " MY_VARIABLE`
+In this challenge we are asked to input "COLLEGE" as the input and assign it to the variable "PWN"
+```    read -p "INPUT:" PWN```
+```    INPUT:COLLEGE```
+  ```  You've set the PWN variable properly! As promised, here is the flag:```
+ ```   pwn.college{QJixVf6GNQb3m9x0AB9IsFgJL9u.dhzN1QDLwgTN0czW}```
+
+
+## READING FILES 
+
+We are asked to  read `/challenge/read_me` into the `PWN` environment variable
+That can be done by running the  following code :
+```read PWN < /challenge/read_me```
+The output is : 
+```You've set the PWN variable properly! As promised, here is the flag:```
+Flag :```pwn.college{47BTz1bvYDs03O8J0HP5ubGR36k.dBjM4QDLwgTN0czW}```
+    
 
 
 
