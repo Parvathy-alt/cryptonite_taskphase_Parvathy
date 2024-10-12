@@ -58,7 +58,7 @@ That can be done by running the  following code :
 ```read PWN < /challenge/read_me```
 The output is : 
 ```You've set the PWN variable properly! As promised, here is the flag:```
-Flag :```pwn.college{47BTz1bvYDs03O8J0HP5ubGR36k.dBjM4QDLwgTN0czW}
+Flag :```pwn.college{47BTz1bvYDs03O8J0HP5ubGR36k.dBjM4QDLwgTN0czW}```
     
 
 
