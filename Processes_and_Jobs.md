@@ -20,6 +20,63 @@ From which we run the command `/challenge/27974-run-6586` to get the flag which 
 
 ## KILLING PROCESSES
 
+We learn abou `kill` and `sleep` command 
+`/challenge/dont_run` must be killed before `/challenge/run` is executed so that the flag can be obtained 
+The PID of `/challenge/dont_run` is found by using the ps
+The command is as follows : `ps -ef | grep /challenge/dont_run`
+The output obtained is : 
+```hacker        73      71  0 05:22 ?        00:00:00 /challenge/dont_run```
+hacker        93      75  0 05:22 pts/0    00:00:00 grep --color=auto /challenge/dont_run
+
+The next command is as follows : 
+` kill 73`
+`/challenge/run`
+
+Flag : `pwn.college{8Wk2pw-j9xI0e66Tdtq0S4qVxj8.dJDN4QDLwgTN0czW}`
+
+## INTERRUPTING PROCESSES
+
+When we run `/challenge/run` command ,this is the output obtained :
+`I could give you the flag... but I won't, until this process exits. Remember, 
+you can force me to exit with Ctrl-C. Try it now!`
+
+Hence we use `Ctrl` command and press `c`, which gives us the flag : `pwn.college{0jUTH_pOxrUodvIgHj1PdeaJXoA.dNDN4QDLwgTN0czW}`
+
+## SUSPENDING PROCESSSES
+
+We learned in the previous challenge to interrup the process we can use `Ctrl-c` , processe can be suspended by using `Ctrl-z`
+In this challenge , we will first run the command `/challenge/run' which gives us the output :
+```I'll only give you the flag if there's already another copy of me running in ```
+this terminal... Let's check!
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root          82      65  0 05:32 pts/0    00:00:00 bash /challenge/run
+root          84      82  0 05:32 pts/0    00:00:00 ps -f
+
+I don't see a second me!
+
+To pass this level, you need to suspend me and launch me again! You can 
+background me with Ctrl-Z or, if you're not ready to do that for whatever 
+reason, just hit Enter and I'll exit!```
+
+Then we use the hotkey `Ctrl-c` and later `Ctrl-z`, then we run `/challenge/run` again to get the flag
+Flag : `pwn.college{s9MN8cyYTgJisTFHIvzuQRsTpi3.dVDN4QDLwgTN0czW}`
+
+## RESUMING PROCESSES
+
+As the name of the challenge suggests we us `fg` comamnd to resume the processes that we have suspended 
+We first run `/challenge/run` and then suspend it by using the hotkey `Ctrl-Z` and then enter `fg` to resume it to get the flag .
+Flag : `pwn.college{gkvZHIUByVyVFdkXSoH9fcwdpPx.dZDN4QDLwgTN0czW}`
+
+## BACKGROUNDING PROCESSES
+
+
+
+
+
+
+
+
 
 
 
