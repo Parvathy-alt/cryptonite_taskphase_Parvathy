@@ -30,6 +30,23 @@ Flag : `pwn.college{QBnN1QsjlJWbvjmESZ6QBh79cQ9.dJTM2QDLwgTN0czW}`
 
 ## PERMISSIONS TWEAKING PRACTICE
 
+`/challenge/run`
+`chmod g-r /challenge/pwn`
+`chmod u-r,o-r /challenge/pwn`
+`chmod u+r,o+r /challenge/pwn`
+`chmod g+rx /challenge/pwn`
+` chmod u-rw,o-r /challenge/pwn`
+`chmod o+rw /challenge/pwn`
+`chmod o+x  /challenge/pwn`
+`chmod u+w,g+w /challenge/pwn`
+`chmod u+r /flag`
+`cat /flag`
+Flag : `pwn.college{0MjjB2KdpUk-iGkZ0m4FWfB7w3x.dBTM2QDLwgTN0czW}`
+
+## PERMISSION SETTING PRACTISE
+
+## THE SUID BIT
+
 
 
 
