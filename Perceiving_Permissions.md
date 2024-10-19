@@ -30,20 +30,53 @@ Flag : `pwn.college{QBnN1QsjlJWbvjmESZ6QBh79cQ9.dJTM2QDLwgTN0czW}`
 
 ## PERMISSIONS TWEAKING PRACTICE
 
-`/challenge/run`
+We first run : `/challenge/run`
+Then we run the following set of commands : 
+
 `chmod g-r /challenge/pwn`
+
 `chmod u-r,o-r /challenge/pwn`
+
 `chmod u+r,o+r /challenge/pwn`
+
 `chmod g+rx /challenge/pwn`
+
 ` chmod u-rw,o-r /challenge/pwn`
+
 `chmod o+rw /challenge/pwn`
+
 `chmod o+x  /challenge/pwn`
+
 `chmod u+w,g+w /challenge/pwn`
+
 `chmod u+r /flag`
-`cat /flag`
+
+Then we run `cat /flag` to get the flag 
 Flag : `pwn.college{0MjjB2KdpUk-iGkZ0m4FWfB7w3x.dBTM2QDLwgTN0czW}`
 
 ## PERMISSION SETTING PRACTISE
+
+We first run : `/challenge/run`
+Then we run the following set of commands : 
+
+`chmod u=-,g+wx,o+wx /challenge/pwn`
+
+`chmod u=x,g=x,o=x /challenge/pwn`
+
+`chmod u=rw,g=-,o=- /challenge/pwn `
+
+`chmod g=r,o-x /challenge/pwn `
+
+`chmod u=w,g+rx,o+r /challenge/pwn `
+
+`chmod u+r,g=w,o+w /challenge/pwn `
+
+`chmod u+wx,o+w /challenge/pwn `
+
+After we run `chmod u+r /flag` to make it accessible and `cat /flag` to get the flag 
+Flag : 
+
+
 
 
 
