@@ -50,6 +50,17 @@ Flag : `pwn.college{0MjjB2KdpUk-iGkZ0m4FWfB7w3x.dBTM2QDLwgTN0czW}`
 
 ## THE SUID BIT
 
+We set the SUID bit by running the command `chmod u+s /challenge/getroot` after which we run `/challenge/getroot` after which we'll get the output :
+`SUCCESS! You have set the suid bit on this program, and it is running as root! `
+
+`Here is your shell...`
+
+`root@permissions~the-suid-bit:~#`
+
+Then we run : `cat /flag` to get the flag : `pwn.college{A9BnUBR9FRDN3hCwqMBj6s034KN.dNTM2QDLwgTN0czW}`
+
+
+
 
 
 
