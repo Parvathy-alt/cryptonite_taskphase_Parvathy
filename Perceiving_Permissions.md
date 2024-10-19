@@ -45,6 +45,9 @@ Flag : `pwn.college{0MjjB2KdpUk-iGkZ0m4FWfB7w3x.dBTM2QDLwgTN0czW}`
 
 ## PERMISSION SETTING PRACTISE
 
+
+
+
 ## THE SUID BIT
 
 
