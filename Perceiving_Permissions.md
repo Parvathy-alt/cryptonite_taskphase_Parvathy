@@ -74,12 +74,7 @@ Then we run the following set of commands :
 `chmod u+wx,o+w /challenge/pwn `
 
 After we run `chmod u+r /flag` to make it accessible and `cat /flag` to get the flag 
-Flag : 
-
-
-
-
-
+Flag : `pwn.college{kNzCBIT5-RUtn3Kzi-dvBabjACJ.dJjN1QDLwgTN0czW}`
 
 ## THE SUID BIT
 
