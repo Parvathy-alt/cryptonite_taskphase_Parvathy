@@ -19,7 +19,7 @@ Flag : `pwn.college{QolCviHcvq4cvYahzJaivK63Shi.dZzNyUDLwgTN0czW}`
 
 ## HIJACKING COMMANDS
 
-We first make a directory called `hack` using `mkdir` after which we run the command `nano hack/rm` and then to make it successful `chmod +x hack/rm` and `/challenge/run` to get the flag 
+We first make a directory called `hack` using `mkdir` after which we run the command `nano hack/rm` and then to make it successful `chmod +x hack/rm` later  `export PATH="hack/rm:$PATH"` and finally  `/challenge/run` to get the flag 
 Flag : `pwn.college{E32hco8xgPQjMsO3BxwdDGoyy2v.ddzNyUDLwgTN0czW}`
 
 
