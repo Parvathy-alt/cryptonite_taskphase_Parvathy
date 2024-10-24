@@ -2,7 +2,7 @@
 
 ## CHANGING FILE OWNERSHIP 
 
-In this challenge we change the owner the flag by running the command to "hacker" by running the command `chown hacker /flag ` then we run the command ` cat /flag` to get the flag 
+In this challenge we change the owner the flag to "hacker" by running the command `chown hacker /flag ` then we run the command ` cat /flag` to get the flag 
 Flag : `pwn.college{o3UTQ94FHyi_Z99isXoaqqOXX6s.dFTM2QDLwgTN0czW}`
 
 ## GROUPS AND FILES 
